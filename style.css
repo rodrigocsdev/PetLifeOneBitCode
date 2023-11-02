@@ -130,11 +130,13 @@ h2 {
     height: 0;
     opacity: 0;
     overflow: hidden;
+    transition: .2s;
 }
 
 .duvida.ativa .paragrafo{
 height: fit-content;
-opacity: 24px;
+opacity: 1;
+padding: 24px;
 }
 
 footer {
